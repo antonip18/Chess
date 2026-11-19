@@ -1,0 +1,25 @@
+.root { -fx-font-family: "System"; -fx-font-size: 14px; -fx-base: #292c31; -fx-background-color: #1b1e23; -fx-accent: #91b879; -fx-focus-color: #91b879; -fx-faint-focus-color: transparent; }
+.label { -fx-text-fill: #ebede8; }
+.game-control-panel { -fx-background-color: #262a30; -fx-background-radius: 12; }
+.title { -fx-font-size: 30px; -fx-font-weight: bold; }
+.eyebrow { -fx-font-size: 9px; -fx-text-fill: #a0a8ae; }
+.status { -fx-font-size: 15px; -fx-text-fill: #b9d9a4; -fx-font-weight: bold; }
+.button { -fx-alignment: center; -fx-padding: 8 12; -fx-background-radius: 6; -fx-cursor: hand; -fx-min-height: 36; }
+.primary-button { -fx-background-color: #91b879; -fx-text-fill: #16221a; -fx-font-weight: bold; }
+.primary-button:hover { -fx-background-color: #a9cb93; }
+.secondary-button { -fx-background-color: #353b43; -fx-text-fill: #eef0ec; }
+.secondary-button:hover { -fx-background-color: #454d56; }
+.button:focused { -fx-border-color: #c0dbae; -fx-border-radius: 6; }
+.button:disabled { -fx-opacity: 0.4; }
+.combo-box { -fx-background-color: #353b43; -fx-background-radius: 6; -fx-padding: 3; }
+.combo-box .list-cell { -fx-text-fill: #eef0ec; }
+.section-label { -fx-font-size: 12px; -fx-text-fill: #b5bdc4; }
+.separator .line { -fx-border-color: #41454b; -fx-border-width: 1 0 0 0; }
+.hint { -fx-text-fill: #9fa8b1; -fx-font-size: 10px; }
+.list-view { -fx-background-color: #20242a; -fx-background-radius: 6; -fx-padding: 4; }
+.list-cell { -fx-background-color: transparent; -fx-text-fill: #d8dedf; -fx-padding: 5 8; }
+.list-cell:filled:selected { -fx-background-color: #414c44; }
+.list-view .placeholder .label { -fx-text-fill: #8f9aa4; -fx-font-size: 12px; }
+.result-card { -fx-background-color: #262a30; -fx-background-radius: 12; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 24, 0.2, 0, 4); }
+.result-label { -fx-font-size: 26px; -fx-font-weight: bold; }
+.cause-label { -fx-text-fill: #b9c4cb; -fx-text-alignment: center; }
